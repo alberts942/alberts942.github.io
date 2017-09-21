@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Assessment 2</title>
+    <style type="text/css">
+      body  {
+        font-weight:bold;
+      }
+      #id  {
+        color:ffcc00;
+      }
+      .Class2  {
+        color: yellow;
+      }
+      .class1  {
+        color:red;
+      }
+      .Class3  {
+        height: 300px;
+        width: 200px;
+        padding: 5px;
+        border: 2px solid blue;
+        margin: 10px;
+      }
+      .class4  {
+         border-radius: 30px;
+         height: 300px;
+        width: 200px;
+        padding: 5px;
+        border: 2px solid red;
+        margin: 10px;
+        background-color:black;
+      }
+      .class5  {
+        color:white;
+      }
+      a:link {
+    color: blue;
+      }
+      a:visited {
+    color: green;
+      }
+      a:hover {
+    color: orange;
+      }
+    </style>
+     </head
+  <body>
+    <p id="id">This is a paragraph that I need to write some words in because I am doing assessment 2 and this is what I am supposed to do. here are some more words to make it longer than it seams so it's more like and actual <a href="https://www.apple.com/" target="_blank">paragraph</a></p>
+    <p class="Class4 class5">This another is a paragraph that I need to write some words in because I am doing assessment 2 and this is what I am supposed to do. here are some more words to make it longer than it seams so it's more like and actual  <a href="http://littletonpublicschools.net/schools/arapahoe-high-school" target="_blank">paragraph</a></p>
+   <center><p class="class3 class1">this is the third a paragraph that I need to write some words in because I am doing assessment 2 and this is what I am supposed to do. here are some more words to make it longer than it seams so it's more like and actual <a href="http://littletonpublicschools.net/schools/powell-middle-school" target="_blank">paragraph</a></p></center>
+  </body>
+</html>
