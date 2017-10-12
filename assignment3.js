@@ -16,15 +16,15 @@ function guess() {
     guessCounter++;
     guessDisplay.innerHTML = "Guesses: " + guessCounter;
     if (currentGuess > randomNum) {
-        paragraph.innerHTML = "You guessed above the number";
+        paragraph.innerHTML = "too high you're wrong";
     }
     else if (currentGuess == randomNum) {
-        paragraph.innerHTML = "Congratulations! You guessed correct!";
+        paragraph.innerHTML = "Well I guess some people do have brains, you're correct";
     }
     else if (currentGuess < randomNum) {
-        paragraph.innerHTML = "You guessed below the number";
+        paragraph.innerHTML = "too low so sad ha";
     }
     else {
-        paragraph.innerHTML = "Your input didn't make any sense";
+        paragraph.innerHTML = "Definently not!";
     }
 }
