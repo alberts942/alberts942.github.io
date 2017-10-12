@@ -1,0 +1,38 @@
+<!doctype html>
+
+<!-- Assessment 3 -->
+
+
+<html>
+    <head>
+      
+	    <title>Assessment 3</title>
+	    
+    </head>
+    
+    <body>
+      
+      <h2>Guess The Password</h2>
+      
+      <button onclick="myFunction()">Click to Log In</button>
+      
+      <script>
+
+        function myFunction() {
+    var password = "ilovekarl";
+    var user;
+    while (user!= password) {
+        user = prompt("Password:", "");
+        if (user != password) {
+          alert("Try Again")
+        }
+}
+ alert("You have successfully signed in.")
+    
+}
+        
+      </script>
+      
+    </body>
+    
+</html>
