@@ -1,7 +1,7 @@
 var randomNum = Math.floor(Math.random() * 10) + 1;
-var paragraph = document.getElementById("result-info");
-var guessDisplay = document.getElementById("guess-info");
-var numInput = document.getElementById("num-input");
+var paragraph = document.getElementById("result");
+var guessDisplay = document.getElementById("guess");
+var numInput = document.getElementById("number");
 numInput.focus();
 var guessCounter = 0;
 
