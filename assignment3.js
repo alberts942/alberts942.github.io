@@ -1,30 +1,11 @@
-var randomNum = Math.floor(Math.random() * 10) + 1;
-var paragraph = document.getElementById("result");
-var guessDisplay = document.getElementById("guess");
-var numInput = document.getElementById("number");
-numInput.focus();
-var guessCounter = 0;
-
-document.body.onkeydown = function(e) {
-    if (e.keyCode == 13) {
-        guess();
-    }
-}
-
-function guess() {
-    var currentGuess = numInput.value;
-    guessCounter++;
-    guessDisplay.innerHTML = "Guesses: " + guessCounter;
-    if (currentGuess > randomNum) {
-        paragraph.innerHTML = "too high you're wrong";
-    }
-    else if (currentGuess == randomNum) {
-        paragraph.innerHTML = "Well I guess some people do have brains, you're correct";
-    }
-    else if (currentGuess < randomNum) {
-        paragraph.innerHTML = "too low so sad ha";
-    }
-    else {
-        paragraph.innerHTML = "Definently not!";
-    }
-}
+			var number = getRandomInt(0, 6);
+    		var guess = prompt("try to Guess a number between 0 and 5.", "");
+       		var guessNumber = 0;
+       		while(guess != number){
+        		alert("You tried " + guess + ": The right think was" + number + ". Please try again");
+          		guessNumber += 1;
+          		number = getRandomInt(0,6);
+          		guess = prompt("the number is between 0 and 5.", "");
+        	}
+        	guessNumber += 1;
+        	alert("Your Answer " + guess + ": You right. you tried " + guessNumber + " times.");
